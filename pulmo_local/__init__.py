@@ -1,0 +1,1 @@
+"""AeroVita Local application package."""

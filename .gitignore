@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local application state
+pulmo_local/pulmo_local.sqlite3
+pulmo_local/recordings/*
+!pulmo_local/recordings/.gitkeep
+
+# Local model artifacts
+*.h5
+*.keras
+
+# Source notebooks and transient workspace files
+*.ipynb
+.copilot/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
